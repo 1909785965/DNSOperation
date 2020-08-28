@@ -16,6 +16,7 @@
 		D8E7ED8A24F8D335000A42BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E7ED8924F8D335000A42BD /* main.m */; };
 		D8E7ED9424F8D335000A42BD /* DNSOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E7ED9324F8D335000A42BD /* DNSOperationTests.m */; };
 		D8E7ED9F24F8D335000A42BD /* DNSOperationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E7ED9E24F8D335000A42BD /* DNSOperationUITests.m */; };
+		D8E7EDAE24F8D99D000A42BD /* SROperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E7EDAD24F8D99D000A42BD /* SROperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		D8E7ED9A24F8D335000A42BD /* DNSOperationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNSOperationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8E7ED9E24F8D335000A42BD /* DNSOperationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNSOperationUITests.m; sourceTree = "<group>"; };
 		D8E7EDA024F8D335000A42BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8E7EDAC24F8D99D000A42BD /* SROperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SROperation.h; sourceTree = "<group>"; };
+		D8E7EDAD24F8D99D000A42BD /* SROperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SROperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				D8E7ED7B24F8D333000A42BD /* SceneDelegate.m */,
 				D8E7ED7D24F8D333000A42BD /* ViewController.h */,
 				D8E7ED7E24F8D333000A42BD /* ViewController.m */,
+				D8E7EDAC24F8D99D000A42BD /* SROperation.h */,
+				D8E7EDAD24F8D99D000A42BD /* SROperation.m */,
 				D8E7ED8024F8D333000A42BD /* Main.storyboard */,
 				D8E7ED8324F8D335000A42BD /* Assets.xcassets */,
 				D8E7ED8524F8D335000A42BD /* LaunchScreen.storyboard */,
@@ -269,6 +274,7 @@
 			files = (
 				D8E7ED7F24F8D333000A42BD /* ViewController.m in Sources */,
 				D8E7ED7924F8D333000A42BD /* AppDelegate.m in Sources */,
+				D8E7EDAE24F8D99D000A42BD /* SROperation.m in Sources */,
 				D8E7ED8A24F8D335000A42BD /* main.m in Sources */,
 				D8E7ED7C24F8D333000A42BD /* SceneDelegate.m in Sources */,
 			);
